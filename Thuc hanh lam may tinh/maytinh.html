@@ -8,26 +8,34 @@
 </head>
 
 <body>
-       <input type="text" id="soThuNhat"> <br>
-        <input type="text" id="soThuHai">
-    <table border="1">
+
+    <table>
         <tr>
-            <th>
-                <input type="button" value="+" onclick="tong()">
-            </th>
-            <th>
-                <input type="button" value="-" onclick="hieu()">
-            </th>
-            <th>
-                <input type="button" value="x" onclick="tich()">
-            </th>
-            <th>
-                <input type="button" value="/" onclick="thuong()">
-            </th>
+            <td colspan="4">
+                <input type="text" id="soThuNhat">
+            </td>
+        </tr>
         <tr>
-            <tr>
-                <td id="phatNgon" colspan="2"></td>
-            </tr>
+            <td colspan="4">
+                <input type="text" id="soThuHai">
+            </td>
+        </tr>
+        <td>
+            <input type="button" value="+" onclick="tong()">
+        </td>
+        <td>
+            <input type="button" value="-" onclick="hieu()">
+        </td>
+        <td>
+            <input type="button" value="x" onclick="tich()">
+        </td>
+        <td>
+            <input type="button" value="/" onclick="thuong()">
+        </td>
+        <tr>
+        <tr>
+            <td id="phatNgon" colspan="2"></td>
+        </tr>
     </table>
     <script src="tinh.js">
     </script>
