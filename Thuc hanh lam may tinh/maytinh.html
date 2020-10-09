@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    Nhập số thứ nhất:
-    <input type="text"> <br>
-    Nhập số thứ hai:
-    <input type="text">
+       <input type="text" id="soThuNhat"> <br>
+        <input type="text" id="soThuHai">
     <table border="1">
         <tr>
             <th>
-                <input type="button" value="+">
+                <input type="button" value="+" onclick="tong()">
             </th>
             <th>
-                <input type="button" value="-">
+                <input type="button" value="-" onclick="hieu()">
             </th>
             <th>
-                <input type="button" value="x">
+                <input type="button" value="x" onclick="tich()">
             </th>
             <th>
-                <input type="button" value="/">
+                <input type="button" value="/" onclick="thuong()">
             </th>
-        </tr>
+        <tr>
+            <tr>
+                <td id="phatNgon" colspan="2"></td>
+            </tr>
     </table>
+    <script src="tinh.js">
+    </script>
 </body>
+
 </html>
