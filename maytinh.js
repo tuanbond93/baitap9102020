@@ -2,7 +2,7 @@ function cong() {
     let a = Number(document.getElementById("so1").value);
     let b = Number(document.getElementById("so2").value);
     let c = a + b;
-    hienthi1 = document.getElementById("so1").value +" + " + document.getElementById("so2").value + " = "
+    hienthi1 = document.getElementById("so1").value +" + " + document.getElementById("so2").value + " = " 
     document.getElementById("pheptinh").innerHTML = hienthi1
     document.getElementById("so1").value = c;
     document.getElementById("so2").focus;
@@ -39,5 +39,5 @@ function chia() {
     document.getElementById("so2").value = "";
 }
 function tinh() {
-    document.getElementById("kqua").value = c
+    document.getElementById("kqua").innerText = c
 }
