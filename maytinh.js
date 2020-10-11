@@ -37,7 +37,3 @@ function chia() {
     document.getElementById("so1").value = c;
     document.getElementById("so2").focus;
     document.getElementById("so2").value = "";
-}
-function tinh() {
-    document.getElementById("kqua").innerText = c
-}
