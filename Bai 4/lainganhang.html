@@ -7,5 +7,14 @@
 </head>
 <body>
     
+    <script>
+        a = prompt ('Nhập số tiền vay:')
+        b = prompt ('Nhập số lãi suất:')
+        c = prompt ('Nhập số năm:')
+        let ls = Number(a) * Number(b) / 100;
+        let d = Number(a) + Number(c) * Number(ls);
+        document.write('Số tiền phải trả sau '+ c +' năm là: '+ d)
+
+    </script>
 </body>
 </html>
